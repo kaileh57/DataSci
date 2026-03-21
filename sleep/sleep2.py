@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+
+
 df07 = pd.read_csv('2007_YRBS_data.csv', low_memory=False)
 df23 = pd.read_csv('2023_YRBS_data.csv', low_memory=False)
 
@@ -24,3 +26,13 @@ insuf23, vshort23 = sleep_stats(df23, 'q85')
 
 print(f"Insufficient sleep (<8hr): 2007={insuf07:.1f}%, 2023={insuf23:.1f}%, change={insuf23-insuf07:+.1f}%")
 print(f"Very short sleep (<=5hr):  2007={vshort07:.1f}%, 2023={vshort23:.1f}%, change={vshort23-vshort07:+.1f}%")
+
+# import statsmodels.stats.proportion as ssp
+
+# # 95% CI for insufficient sleep in 2023 adolescents
+# s23 = df23['q85'].dropna()
+# n23 = len(s23)
+# count_insuf23 = (s23 <= 4).sum()
+# ci_low23, ci_high23 = ssp.proportion_confint(count_insuf23, n23, alpha=0.05, method='wilson')
+# print(f"2023 insufficient sleep 95% CI: {ci_low23*100:.1f}% to {ci_high23*100:.1f}%")
+
