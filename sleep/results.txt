@@ -1,0 +1,29 @@
+
+Insufficient sleep by Grade  (paper values in parentheses)
+                 2007%    2023%   Change
+  Freshman       57.7%    69.0%   +11.3%
+  Sophomore      67.6%    78.0%   +10.4%
+  Junior         75.1%    79.2%    +4.1%
+  Senior         78.2%    81.9%    +3.7%
+
+Insufficient sleep by Sex  (paper values in parentheses)
+             2007%         95% CI     2023%         95% CI    Change
+  Female     71.3% (70.1, 72.4)    78.3% (77.4, 79.2)    +7.0%
+  Male       66.6% (65.4, 67.8)    75.4% (74.5, 76.3)    +8.8%
+
+Insufficient sleep by Cannabis use (past 30 days)  (paper values in parentheses)
+                 2007%         95% CI     2023%         95% CI    Change
+  Never          68.7% (67.9, 69.6)    75.1% (74.4, 75.8)    +6.4%
+  <10 times      75.8% (71.8, 79.8)    84.1% (82.2, 85.9)    +8.3%
+  >=10 times     68.4% (61.6, 75.2)    85.4% (83.5, 87.2)   +16.9%
+
+Insufficient sleep by Physical Activity Level (2023), split by Sex
+                               n       %         95% CI
+  Female, 0 days           1,511   81.9%  (80.0, 83.9)
+  Female, 1-2 days         1,618   81.3%  (79.4, 83.2)
+  Female, 3-4 days         1,955   78.8%  (77.0, 80.6)
+  Female, 5+ days          3,415   74.7%  (73.2, 76.1)
+  Male, 0 days               999   82.2%  (79.8, 84.5)
+  Male, 1-2 days           1,080   79.2%  (76.8, 81.6)
+  Male, 3-4 days           1,605   78.9%  (76.9, 80.9)
+  Male, 5+ days            4,929   72.1%  (70.8, 73.4)
